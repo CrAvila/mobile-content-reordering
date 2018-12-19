@@ -99,4 +99,44 @@ section, footer {
         flex-basis: 100%;
     }
 
+    .wrapper > * {
+        order: 99;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-nav {
+        order: 1;
+    }
+
+    .toggleNav {
+        display: block;
+    }
+    
+
+    .flex-nav ul {
+        display: none;
+    }
+
+    .flex-nav ul.open {
+        display: flex;
+    }
+
+    .top {
+        order: 2;
+    }
+
+    .details {
+        order: 3;
+    }
+
+    .signup {
+        order: 4;
+    }
+
+
+
 }
